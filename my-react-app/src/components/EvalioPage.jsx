@@ -3,11 +3,26 @@ import "./EvalioPage.css";
 
 const EvalioPage = () => {
   return (
-    <div className="evalio-container">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        backgroundColor: "white",
+        color: "black",
+      }}
+    >
       <h1 className="title">Evalio</h1>
       <hr />
 
-      <section className="section">
+      <section
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
         <h2>Project Brief</h2>
         <p>
           Evalio is a performance management platform designed to help
